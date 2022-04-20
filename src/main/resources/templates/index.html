@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>疫情模拟系统</title>
+    <link rel="icon" href="img/1f6df3c5b758ce4b9942a42c95e2d8c.jpg">
+    <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>疫情模拟系统</h1>
+        <div class="showtime">
+            <script src="js/showtime.js"></script>
+        </div>
+    </header>
+
+    <section class="mainbox">
+        <div class="column">
+            <div class="panel bar">
+                <h2>死亡人数</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel line">
+                <h2>患病人数</h2>
+                <div class="chart">图表</div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel line3">
+                <h2>存活人数</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="no">
+                <div class="no-hd">
+                    <ul>
+                        <li>计科2</li>
+                        <li>张博</li>
+                    </ul>
+                </div>
+                <div class="no-bd">
+                    <ul>
+                        <li>措施1:完全开放</li>
+                        <li>措施2:接种+不管控</li>
+                        <li>措施3:接种+适度管控</li>
+                        <li>措施4:接种+完全管控</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map">
+                <div class="map1"></div>
+                <div class="map2"></div>
+                <div class="map3"></div>
+                <div class="chart"></div>
+            </div>
+        </div>
+
+
+        <div class="column">
+            <div class="panel bar-1">
+                <h2>疫苗接种人数</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel line2">
+                <h2>隔离人数</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel pie">
+                <h2>各省感染人数</h2>
+                <div class="chart"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/flexible.js"></script>
+    <script src="js/echarts/echarts.min.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
